@@ -1,0 +1,384 @@
+@charset "UTF-8";
+/* line 8, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 11, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+header {
+  position: relative;
+  height: 50px;
+}
+
+/* line 15, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: #212121;
+  z-index: 2;
+}
+
+/* line 22, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 29, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.menu .menu_link {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* line 34, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.menu .menu_item {
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+
+/* line 38, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.subheader {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 45, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.subheader .subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+/* line 50, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.subheader .subheader_official {
+  margin-top: 6px;
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* line 57, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.subheader .subheader_call {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 19px;
+  text-align: right;
+}
+
+/* line 64, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.subheader .subheader_phone {
+  display: block;
+  margin-top: 8px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: right;
+  line-height: 12px;
+}
+
+/* line 74, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.subheader_btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 4, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.subheader_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 89, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.promo {
+  min-height: 800px;
+  background: url("../img/bgpromo.jpg") center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+/* line 94, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.promo .promo_header {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 103, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.promo .promo_subheader {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 22px;
+  text-align: center;
+}
+
+/* line 113, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.promo .promo_descr {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 23px;
+}
+
+/* line 121, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.promo .promo_btn {
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 4, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.promo .promo_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 137, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.reasons {
+  padding: 71px 0 65px 0;
+}
+
+/* line 139, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.reasons .title_color {
+  color: #1eacc7;
+}
+
+/* line 142, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.label {
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+/* line 153, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.title {
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 164, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.subtitle {
+  margin-top: 19px;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* line 171, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.reasons .reasons_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+/* line 177, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.reasons .reasons_block .reasons_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 26px;
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+
+/* line 187, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.reasons .reasons_block .reasons_descr {
+  width: 343px;
+}
+
+/* line 190, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.reasons .reasons_block .reasons_subtitle {
+  line-height: 21px;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+/* line 196, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.reasons .reasons_block .reasons_text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+/* line 201, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.mobile {
+  min-height: 864px;
+  padding: 48px 0 79px 0;
+  background: url("../img/bgpromo.jpg") center center/cover no-repeat;
+}
+
+/* line 205, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.mobile .row {
+  margin-top: 32px;
+}
+
+/* line 207, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.mobile_item {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  margin: 0 auto;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+
+/* line 214, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.mobile_item_1 {
+  background-color: rgba(20, 20, 20, 0.25);
+}
+
+/* line 216, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.mobile_item_2 {
+  background-color: rgba(20, 20, 20, 0.25);
+}
+
+/* line 218, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.mobile_item_3 {
+  background-color: rgba(20, 20, 20, 0.25);
+}
+
+/* line 220, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.mobile_item_4 {
+  background-color: rgba(20, 20, 20, 0.25);
+}
+
+/* line 222, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.mobile_item_5 {
+  background-color: rgba(20, 20, 20, 0.25);
+}
+
+/* line 224, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.mobile_item_6 {
+  background-color: rgba(20, 20, 20, 0.25);
+}
+
+/* line 226, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.mobile_item_subtitle {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 233, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.mobile_item_plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 26px;
+  height: 26px;
+  background-color: #000000;
+  margin: 0 auto;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+/* line 247, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.mobile_item_plus:before {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 2px;
+  background-color: #1eacc7;
+}
+
+/* line 253, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.mobile_item_plus:after {
+  content: '';
+  display: block;
+  height: 14px;
+  width: 2px;
+  background-color: #1eacc7;
+}
+
+/* line 260, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.choice {
+  min-height: 864px;
+  padding: 48px 0 79px 0;
+  background-image: linear-gradient(to top, #ffffff 0%, #000000 100%);
+}
+
+/* line 264, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.choice .label_white {
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 700;
+}
+
+/* line 268, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.choice .choice_img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+/* line 272, ../../../../../../Алексей/Desktop/Цей паПКа/git/src/sass/style.sass */
+.choice .choice_descr {
+  margin-top: 100px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
